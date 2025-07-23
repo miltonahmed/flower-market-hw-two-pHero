@@ -10,4 +10,34 @@
   .navbar_left img {
     height: 38px;
   }
+
+  /* Hero section start  */
+  #hero {
+    margin-top: 35px;
+  }
+
+  .hero_wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .hero_left-content {
+    order: 2;
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .hero_right-image {
+    order: 1;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero_left-content h1 {
+    font-size: 1.5rem;
+  }
+  .hero_left-content p {
+    font-size: 14px;
+  }
 }

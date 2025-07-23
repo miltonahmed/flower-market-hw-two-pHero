@@ -20,6 +20,7 @@ a {
 
 img {
   vertical-align: middle;
+  object-fit: cover;
 }
 html {
   overflow-x: hidden;
@@ -56,6 +57,14 @@ a {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+.section-description {
+  color: var(--paragraph-color);
+  font-family: var(--font-inter);
+  font-size: 1.375rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* ======= navbar Section Start  Here =======  */
@@ -106,8 +115,42 @@ a {
   color: var(--primary-text-color);
 }
 /* ======= navbar Section End Here =======  */
-/* ======= navbar Section Start  Here =======  */
-/* ======= navbar Section End Here =======  */
+#hero {
+  margin: 120px 0;
+}
+.hero_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.hero_left-content {
+  max-width: 570px;
+  order: 1;
+  text-align: left;
+}
+.hero_left-content h1 {
+  font-family: var(--font-noto);
+  font-size: 4.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--primary-text-color);
+  margin-bottom: 13px;
+}
+.hero_left-content h1 > span {
+  color: var(--orange-color);
+}
+.hero_right-image {
+  max-width: 570px;
+  height: 355px;
+  overflow: hidden;
+  order: 2;
+}
+.hero_right-image img {
+  width: 100%;
+}
+/* ======= Hero  Section Start  Here =======  */
+
+/* ======= Hero  Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
 /* ======= navbar Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
