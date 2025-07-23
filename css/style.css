@@ -1,0 +1,56 @@
+/* Google fonts link */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Common Css  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  vertical-align: middle;
+}
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+li,
+ul,
+ol,
+img,
+a {
+  margin: 0;
+  padding: 0;
+}
+/* Variable  */
+:root {
+  --font-noto: 'Noto Serif', serif;
+  --font-inter: 'Inter', sans-serif;
+  --paragraph-color: rgba(0, 0, 0, 0.5);
+  --orange-color: #e95a08;
+  --white-color: #ffffff;
+}
+/* main width  */
+.container {
+  max-width: 11140px;
+  margin: 0 auto;
+}
