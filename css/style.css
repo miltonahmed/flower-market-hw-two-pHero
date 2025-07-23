@@ -45,12 +45,86 @@ a {
 :root {
   --font-noto: 'Noto Serif', serif;
   --font-inter: 'Inter', sans-serif;
+  --primary-text-color: #000000;
   --paragraph-color: rgba(0, 0, 0, 0.5);
   --orange-color: #e95a08;
   --white-color: #ffffff;
+  --nav-text-color: #8987a1;
+  --text-hover-color: #252432;
 }
 /* main width  */
 .container {
-  max-width: 11140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
+
+/* ======= navbar Section Start  Here =======  */
+#navbar {
+  margin-top: 24px;
+}
+.navbar_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.navbar_right ul {
+  display: flex;
+  gap: 48px;
+}
+.navbar_right ul > li > a {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--nav-text-color);
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.navbar_right ul > li > a:hover {
+  color: var(--text-hover-color);
+  font-weight: 700;
+}
+.navbar_icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navbar_icons a {
+  font-family: var(--font-inter);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--primary-text-color);
+}
+.navbar_icons a > i {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-text-color);
+}
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */
+/* ======= navbar Section Start  Here =======  */
+/* ======= navbar Section End Here =======  */

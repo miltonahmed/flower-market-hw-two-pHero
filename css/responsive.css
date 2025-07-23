@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  #navbar {
+    margin-top: 13px;
+    padding: 0 16px;
+  }
+  .navbar_right ul {
+    display: none; /* Hide menu on mobile */
+  }
+
+  .navbar_right {
+    gap: 12px; /* Less gap on mobile */
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar_left img {
+    height: 38px;
+  }
+}
