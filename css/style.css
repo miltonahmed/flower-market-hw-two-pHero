@@ -52,6 +52,7 @@ a {
   --white-color: #ffffff;
   --nav-text-color: #8987a1;
   --text-hover-color: #252432;
+  --bg-color: #f5f8ff;
 }
 /* main width  */
 .container {
@@ -59,6 +60,9 @@ a {
   margin: 0 auto;
 }
 
+body {
+  background-color: var(--bg-color);
+}
 /* Shared Style  */
 .section-title {
   font-family: var(--font-noto);
@@ -224,8 +228,72 @@ a {
   max-width: 100%;
 }
 /* ======= Plants Section End Here =======  */
-/* ======= navbar Section Start  Here =======  */
-/* ======= navbar Section End Here =======  */
+/* ======= Plants Lover section  Section Start  Here =======  */
+#plantsLover {
+  padding-top: 210px;
+  padding-bottom: 133px;
+}
+.plantsLover_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  position: relative;
+}
+.plantsLover_left_image {
+  max-width: 540px;
+  overflow: hidden;
+  order: 1;
+}
+.plantsLover_left_image img {
+  background: linear-gradient(
+      180deg,
+      rgba(103, 171, 234, 0.24) 0%,
+      rgba(233, 90, 8, 0.6) 100%
+    ),
+    url(<path-to-image>) lightgray -197.425px -16.973px / 160.314% 103.191%
+      no-repeat;
+  width: 100%;
+  object-fit: cover;
+}
+.plantsLover_right_content {
+  max-width: 540px;
+  order: 2;
+}
+
+.plantsLover_right_content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+  margin-top: 20px;
+}
+.plantsLover_right_content h3 {
+  font-family: var(--font-noto);
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: var(--primary-text-color);
+  line-height: normal;
+}
+.plantsLover_right_content li {
+  font-family: var(--font-inter);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--paragraph-color);
+  margin-bottom: 20px;
+}
+
+.trusted_badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: -101px;
+  left: 346px;
+}
+.trusted_badge img {
+  width: 100%;
+}
+/* ======= Plants Lover section  Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
 /* ======= navbar Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
