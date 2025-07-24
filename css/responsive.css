@@ -13,6 +13,7 @@
 
   /* Hero section start  */
   #hero {
+    padding: 0 0;
     margin-top: 35px;
   }
 
@@ -27,6 +28,9 @@
     max-width: 100%;
     padding: 0 16px;
   }
+  .hero_left-content h1 {
+    margin-top: 13px;
+  }
 
   .hero_right-image {
     order: 1;
@@ -39,5 +43,40 @@
   }
   .hero_left-content p {
     font-size: 14px;
+  }
+
+  /* Plants section  */
+  #plants {
+    margin-top: 35px;
+    padding: 0 14px 17px;
+  }
+  .plants_content {
+    padding: 0 28px;
+  }
+  .plants_content span {
+    margin-top: 0;
+  }
+  .plants_content h2 {
+    font-size: 1.5rem;
+  }
+  .plants_content p {
+    font-size: 14px;
+  }
+  .plants_items {
+    margin-top: 28px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plants_item {
+    max-width: 100%;
+  }
+  .item_img {
+    max-width: 100%;
+  }
+  .item_img img {
+    width: 100%;
+  }
+  .item-button {
+    padding: 19px 30px;
+    text-align: center;
   }
 }

@@ -58,6 +58,16 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* Shared Style  */
+.section-title {
+  font-family: var(--font-noto);
+  font-weight: 700;
+  font-size: 3rem;
+  font-style: normal;
+  line-height: normal;
+  color: var(--primary-text-color);
+}
 .section-description {
   color: var(--paragraph-color);
   font-family: var(--font-inter);
@@ -115,8 +125,11 @@ a {
   color: var(--primary-text-color);
 }
 /* ======= navbar Section End Here =======  */
+/* ======= Hero  Section Start  Here =======  */
 #hero {
-  margin: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #f5f8ff;
 }
 .hero_wrapper {
   display: flex;
@@ -135,6 +148,7 @@ a {
   line-height: normal;
   color: var(--primary-text-color);
   margin-bottom: 13px;
+  margin-top: 56px;
 }
 .hero_left-content h1 > span {
   color: var(--orange-color);
@@ -148,11 +162,68 @@ a {
 .hero_right-image img {
   width: 100%;
 }
-/* ======= Hero  Section Start  Here =======  */
 
 /* ======= Hero  Section End Here =======  */
-/* ======= navbar Section Start  Here =======  */
-/* ======= navbar Section End Here =======  */
+/* ======= Plants Section Start  Here =======  */
+#plants {
+  margin-top: 120px;
+}
+.plants_content {
+  text-align: center;
+  max-width: 888px;
+  margin: 0 auto;
+}
+.plants_content h2 > span {
+  color: var(--orange-color);
+}
+.plants_content h2 {
+  margin-bottom: 16px;
+}
+.plants_item {
+  max-width: 270px;
+}
+.item_content h4 {
+  font-family: var(--font-inter);
+  font-family: 22px;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-top: 30px;
+  text-align: center;
+}
+.item_content span {
+  font-family: var(--font-inter);
+  font-family: 22px;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  display: block;
+}
+.item-button {
+  font-family: var(--font-inter);
+  font-family: 1rem;
+  font-weight: 600;
+  color: white;
+  line-height: 150%;
+  text-transform: capitalize;
+  padding: 19px 80px;
+  width: 100%;
+  background: var(--orange-color);
+}
+.plants_items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-top: 49px;
+  max-width: 100%;
+}
+/* ======= Plants Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
 /* ======= navbar Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
