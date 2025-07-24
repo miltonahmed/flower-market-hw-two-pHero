@@ -99,4 +99,41 @@
   .trusted_badge {
     display: none;
   }
+
+  /* deals  */
+  #deals {
+    padding: 0 16px;
+  }
+  .deals_content h2 {
+    font-size: 1.5rem;
+  }
+  .deals_content p {
+    font-size: 14px;
+  }
+
+  .deals_image {
+    gap: 15px;
+    padding-top: 46px;
+  }
+  .deals_image_left {
+    gap: 15px;
+  }
+
+  .deals_image_left,
+  .deals_image_right {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+  .image_item {
+    max-width: 100%;
+  }
+  .image_item_content h5 {
+    font-size: 18px;
+  }
+  .image_item_right_content h5 {
+    font-size: 28px;
+  }
+  .image_item_right_content a {
+    font-size: 20px;
+  }
 }

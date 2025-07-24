@@ -247,12 +247,11 @@ body {
 }
 .plantsLover_left_image img {
   background: linear-gradient(
-      180deg,
-      rgba(103, 171, 234, 0.24) 0%,
-      rgba(233, 90, 8, 0.6) 100%
-    ),
-    url(<path-to-image>) lightgray -197.425px -16.973px / 160.314% 103.191%
-      no-repeat;
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+
   width: 100%;
   object-fit: cover;
 }
@@ -294,8 +293,158 @@ body {
   width: 100%;
 }
 /* ======= Plants Lover section  Section End Here =======  */
-/* ======= navbar Section Start  Here =======  */
-/* ======= navbar Section End Here =======  */
+/* ======= Deals  Section Start  Here =======  */
+
+.deals_content {
+  text-align: center;
+  max-width: 888px;
+  margin: 0 auto;
+}
+.deals_content span {
+  color: var(--orange-color);
+}
+.deals_image {
+  display: flex;
+  gap: 28px;
+  padding: 120px 0;
+  flex-wrap: wrap; /* Wrap on small screens */
+  justify-content: center;
+}
+
+.deals_image_left {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  flex: 1 1 300px;
+  max-width: 366px;
+}
+
+.image_item {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 366px;
+}
+
+.image_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.image_item .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.image_item_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+  width: 90%;
+}
+
+.image_item_content h5 {
+  font-family: var(--font-noto);
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 12px;
+  padding-top: 14px;
+  position: relative;
+}
+
+.image_item_content h5::before {
+  content: '';
+  display: block;
+  width: 60%;
+  height: 2px;
+  background-color: white;
+  margin: 0 auto 8px auto;
+}
+
+.image_item_content a {
+  font-family: var(--font-inter);
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.image_item_content a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+.deals_image_right {
+  position: relative;
+  flex: 1 1 400px;
+  max-width: 753px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.deals_image_right > .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.deals_image_right > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+
+.image_item_right_content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 2;
+  width: 90%;
+}
+
+.image_item_right_content h5 {
+  font-family: var(--font-noto);
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.image_item_right_content a {
+  font-family: var(--font-inter);
+  font-weight: 600;
+  font-size: 28px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* ======= Deals  Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
 /* ======= navbar Section End Here =======  */
 /* ======= navbar Section Start  Here =======  */
