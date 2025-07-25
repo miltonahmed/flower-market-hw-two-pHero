@@ -53,6 +53,9 @@
   .plants_content {
     padding: 0 28px;
   }
+  .plants_content h2 {
+    padding-top: 65px;
+  }
   .plants_content span {
     margin-top: 0;
   }
@@ -83,6 +86,7 @@
   /* Plants Lover  */
   #plantsLover {
     padding: 0 16px;
+    padding-bottom: 140px;
     margin-top: 30px;
   }
   .plantsLover_wrapper {
@@ -114,6 +118,7 @@
   .deals_image {
     gap: 15px;
     padding-top: 46px;
+    padding-bottom: 46px;
   }
   .deals_image_left {
     gap: 15px;
@@ -136,6 +141,9 @@
   .image_item_right_content a {
     font-size: 20px;
   }
+
+  /* Join Section  */
+
   .section_wrapper {
     padding: 110px 36px 65px 36px;
   }
@@ -150,5 +158,18 @@
   button {
     padding: 19px 25px;
     font-size: 0.9rem;
+  }
+
+  /* footer section  */
+
+  #footer {
+    padding: 0 20px 14px;
+  }
+  .footer_wrapper {
+    flex-direction: column;
+  }
+
+  .footer_icon_section img:first-child {
+    margin-left: 0;
   }
 }
